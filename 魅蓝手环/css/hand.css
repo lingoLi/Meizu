@@ -1,0 +1,521 @@
+body {
+    width: 1366px;
+}
+
+/*hand 开始 */
+.hand {
+     width: 1366px;
+     height: 855px;
+ }
+ .hand img {
+     width: 1366px;
+ }
+ .hand-in {
+     width: 1366px;
+     height: 148px;
+ }
+
+ .hand-in dt {
+     width: 115px;
+     height: 21px;
+     float: left;
+     margin: 30px 252px 0 55px;
+ }
+ .hand-in dt img {
+     width: 115px;
+     height: 21px;
+ }
+ .hand-in dd {
+
+     height: 80px;
+     margin-right: 40px;
+     float: left;
+     font:14px/2 "微软雅黑" ;
+     color: #646464;
+     line-height: 80px;
+ }
+ .hand-in span {
+     float: left;
+     margin: 16px 252px 0 55px;
+     font:18px "微软雅黑" ;
+     position: absolute;
+ }
+ .hand-in button {
+     width: 91px;
+     height: 38px;
+     position: absolute;
+     margin-left: 1173px;
+     background-color: #00C3F5;
+     border-radius: 8%;
+     border: 0;
+     outline: none;
+     font-family: "微软雅黑";
+     color: #fff;
+     display: inline-block;
+     float: left;
+ }
+.hand-in button:hover {
+    background-color: #00A6FF;
+
+
+
+}
+.navBar{
+    position: relative;
+    float: left;
+    width: 1366px;
+    height: 100px;
+}
+  .fixed{
+     width: 1366px;
+     height: 50px;
+     margin-top: 0px;
+     position: fixed;
+     width: 1366px;
+     top: 0;
+     left: 0;
+ }
+.shopping-cart {
+    float: right;
+    width: 22px;
+    height: 22px;
+    line-height: 10px;
+    margin-top: 30px;
+    margin-right: 70px;
+    margin-left: 30px;
+    background: url("../image/shopping-cart-gray_1.png") no-repeat;
+    text-align: center;
+    color: #f00;
+    font-size: 12px;
+    text-indent: 2px;
+}
+.user {
+    float: right;
+    display: block;
+    width: 23px;
+    height: 23px;
+    margin-top: 28px;
+    background: url("../image/icon-user.png") no-repeat;
+    cursor: pointer;
+}
+ /*
+ hand 结束 */
+
+/*banner2  开始*/
+.banner2 {
+    width: 1366px;
+
+    position: relative;
+}
+.banner2 .time {
+    position: absolute;
+    top:0;
+    z-index: 3;
+}
+.banner2 .time img {
+    width: 51px;
+    height: 33px;
+    position: absolute;
+    top:247px;
+    left:455px;
+}
+.banner2 > img {
+    position: relative;
+    width: 1366px;
+}
+#xia {
+    position: absolute;
+    width: 1366px;
+    height: 576px;
+    background-color: #000;
+    opacity: 1;
+    z-index: 2;
+}
+.banner2 .txt1 {
+    width: 439px;
+    height: 248px;
+    float: right;
+    position: absolute;
+    top: 250px;
+    right:81px;
+    opacity: 1;
+}
+.banner2 .txt1 h3 {
+    position: absolute;
+    top:-23px;
+    height: 86px;
+    color: #fff;
+    font: 52px "微软雅黑";
+    line-height: 86px;
+    opacity: 0;
+
+}
+.banner2 .txt1 p {
+    position: absolute;
+    top:105px;
+    height: 32px;
+    color: #fff;
+    font:16px "微软雅黑";
+    line-height: 32px;
+    opacity: 0;
+}
+.banner2 .txt2 {
+    position: absolute;
+    top:580px;
+    left:436px;
+   /* animation-name:myfirst;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transition: red 4s ease-in;*/
+}
+.banner2 .txt2 h3 {
+    position: absolute;
+    top:50px;
+    height: 66px;
+    color: #fff;
+    font: 52px "微软雅黑";
+    line-height: 66px;
+    opacity: 0;
+
+
+}
+
+.banner2 .txt2 p {
+    position: relative;
+    top:155px;
+    height: 198px;
+    color: #fff;
+    font:16px "微软雅黑";
+    line-height: 198px;
+    opacity: 0;
+}
+.banner2-in {
+    width: 1366px;
+    position: absolute;
+    top: 1216px;
+    float: left;
+    text-align: center;
+}
+.banner2 .icon1 {
+position: absolute;
+    top:10px;
+    left: -10px;
+    width: 274px;
+    height: 341px;
+    text-align: center;
+    float: left;
+    margin: 0 87px;
+
+}
+.banner2 .icon2{
+    width: 274px;
+    height: 341px;
+    text-align: center;
+    float: left;
+    margin: 0 87px;
+    position: relative;
+    top:19px;
+    left:434px;
+
+}
+.banner2 .icon3{
+    position: relative;
+    width: 274px;
+    height: 341px;
+    text-align: center;
+    float: left;
+    margin: 0 87px;
+    top:25px;
+    left:470px;
+
+}
+.banner2 .icon1 img {
+    width: 78px;
+}
+.banner2-in h3 {
+    font-family: 华文行宋;
+    font-weight: 400;
+    font-size: 22px;
+    height: 68px;
+    line-height: 68px;
+}
+.banner2-in p {
+    font:13px "微软雅黑";
+    height: 31px;
+    line-height: 31px;
+}
+/*banner 结束*/
+/*心率专家开始*/
+.heart {
+
+    width: 1366px;
+    height: 880px;
+    background: #FDFDFD  url(../image/heart-bg.jpg);
+    overflow: hidden;
+    position: relative;
+}
+.heart .left{
+    width: 324px;
+    position: absolute;
+    top: 331px;
+    left: 120px;
+}
+.heart .right {
+    transform:rotate(-20deg);
+    width: 510px;
+    position: absolute;
+    top:0px;
+    left:147px;
+    z-index: 0;
+    background-size: 68px;
+}
+.heart span {
+    position: absolute;
+    top:409px;
+    left: 270px;
+    opacity: 0;
+}
+.heart .txt {
+    width: 496px;
+    height: 530px;
+    position: absolute;
+    top:200px;
+    right: 78px;
+}
+.heart .txt h3 {
+    position: relative;
+    top:84px;
+    left: 7px;
+    height: 66px;
+    color: #000;
+    font: 52px "微软雅黑";
+    line-height: 30px;
+    opacity: 0;
+
+
+}
+.heart .txt .p0 {
+    position: relative;
+    top:120px;
+    left:7px;
+    height: 31px;
+    color: #000;
+    font:16px "微软雅黑";
+    line-height: 31px;
+    opacity: 0;
+}
+.heart b {
+    color: #000;
+    font: 16px "微软雅黑";
+    line-height: 30px;
+}
+#shouDng{
+    position: absolute;
+    top:280px;
+    left:7px;
+    opacity: 0;
+}
+#jingTai{
+    position: absolute;
+    top:360px;
+    left:7px;
+    opacity: 0;
+}
+#dongTai{
+    position: absolute;
+    top:440px;
+    left:7px;
+    opacity: 0;
+}
+.heart .p1 {
+    position: absolute;
+    top:300px;
+    left:7px;
+    font:16px "微软雅黑";
+    height: 31px;
+    color: #000;
+    line-height: 31px;
+    opacity: 0;
+}
+.heart  .p2 {
+    font:16px "微软雅黑";
+    position: absolute;
+    top:400px;
+    left:7px;
+    font:16px "微软雅黑";
+    height: 31px;
+    color: #000;
+    line-height: 31px;
+    opacity: 0;
+}
+.heart .p3 {
+    position: absolute;
+    top:480px;
+    left:7px;
+    font:16px "微软雅黑";
+    height: 31px;
+    color: #000;
+    line-height: 31px;
+    opacity: 0;
+}
+/*心率专家结束*/
+/*轮播图开始*/
+.slide {
+
+    width: 1366px;
+    position: relative;
+    height:666px;
+    overflow: hidden;
+}
+.slide img {
+    position: absolute;
+    min-width: 1366px;
+    width: 100%;
+    height: 550px;
+}
+#btn {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+}
+.slide span {
+    position: absolute;
+    bottom: 20px;
+    left: 666px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-left: 11px;
+    cursor: pointer;
+
+}
+.slide .moveon{
+    background-color: #000;
+}
+.slide .text {
+    position: relative;
+    top:276px;
+    left:126px;
+    width: 400px;
+    height: 279px;
+}
+.slide  h3{
+    position: absolute;
+    top:-37px;
+    height: 88px;
+    color: #000;
+    font: 36px "微软雅黑";
+    line-height: 47px;
+    opacity: 1;
+}
+.slide p {
+    position: absolute;
+    top:83px;
+    height: 31px;
+    color: #000;
+    font:16px "微软雅黑";
+    line-height: 31px;
+    opacity: 0;
+}
+/*轮播图结束*/
+/*water开始*/
+.water {
+    position: relative;
+}
+.water img {
+    width: 1349px;
+}
+.water .txt {
+    width: 888px;
+    height: 172px;
+    position: absolute;
+    top:602px;
+    left: 211px;
+    text-align: center;
+}
+.water .txt h3 {
+    position: absolute;
+    top:-143px;
+    left:227px;
+    height: 88px;
+    color: #fff;
+    font: 36px "微软雅黑";
+    line-height: 47px;
+    opacity: 0;
+}
+.water .txt p {
+    position: absolute;
+    top:7px;
+    height: 31px;
+    color: #fff;
+    font:16px "微软雅黑";
+    line-height: 31px;
+    opacity: 0;
+}
+/*water开始*/
+/*map开始*/
+.map {
+    position: relative;
+}
+.map img {
+    width: 1366px;
+}
+.map .txt {
+    width: 452px;
+    height: 202px;
+    position: absolute;
+    top:185px;
+    left: 126px;
+}
+.map .txt h3 {
+    position: absolute;
+    top:50px;
+    height: 88px;
+    color: #000;
+    font: 36px "微软雅黑";
+    line-height: 47px;
+    opacity: 0;
+}
+.map .txt p {
+    position: absolute;
+    top:140px;
+    height: 31px;
+    color: #000;
+    font:16px "微软雅黑";
+    line-height: 31px;
+    opacity: 0;
+}
+/*map结束*/
+/*spec开始*/
+.spec {
+    position: relative;
+}
+.spec img {
+    width: 1349px;
+    position: relative;
+}
+.spec-in {
+    float: left;
+    width: 456px;
+    position: absolute;
+    top:120px;
+    left: 88px;
+    font: 14px "微软雅黑";
+    color: #fff;
+    line-height: 30px;
+}
+.spec-in tr {
+    width: 491px;
+}
+.spec-in h3 {
+    font: 22px "微软雅黑";
+    line-height: 30px;
+    letter-spacing:3px;
+}
+/*spec结束*/

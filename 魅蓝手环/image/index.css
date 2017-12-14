@@ -1,0 +1,369 @@
+/* ::::: https://www3.res.meizu.com/static/cn/global/common_97d99cb.css ::::: */
+
+html, body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input, abbr, article, aside, command, details, figcaption, figure, footer, header, hgroup, mark, meter, nav, output, progress, section, summary, time { margin: 0px; padding: 0px; }
+h1, h2, h3, h4, h5, h6, pre, code, address, caption, cite, code, em, strong, th, figcaption { font-size: 1em; font-weight: 400; font-style: normal; }
+@font-face {
+	font-family: "Source Han Sans";
+	font-style: normal;
+	font-weight: 400;
+	src: url('kaigengothiccn-light_c555b85.eot') format("embedded-opentype"), url('kaigengothiccn-light_4a31117.woff') format("woff"), url('kaigengothiccn-light_771312f.ttf') format("truetype"), url('kaigengothiccn-light_4c8dddb.svg') format("svg");
+}
+* { margin: 0px; padding: 0px; }
+html, body { width: 100%; height: 100%; position: relative; }
+html { background-color: rgb(255, 255, 255); }
+.selfclear::after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+img { border: 0px none; }
+a { text-decoration: none; color: rgb(81, 81, 81); }
+a:focus { outline: 0px none; }
+i { font-style: normal; }
+ul, li { list-style: outside none none; }
+.slider h1, .slider h2 { font-family: "Source Han Sans",Helvetica,Tahoma,Arial,"Hiragino Sans GB","Microsoft YaHei",SimSun,Heiti,sans-serif; }
+p { max-height: 100%; }
+body { font: 14px/1.5 Helvetica,Tahoma,Arial,"Hiragino Sans GB","Microsoft YaHei",SimSun,Heiti,sans-serif; color: rgb(81, 81, 81); }
+.clearfix::after, .clearfix::before { content: ""; display: table; height: 0px; clear: both; visibility: hidden; }
+.clearfix {  }
+.button { outline: 0px none; display: inline-block; line-height: normal; white-space: nowrap; vertical-align: baseline; text-align: center; cursor: pointer; -moz-user-select: none; }
+.button { font-family: inherit; font-size: 100%; padding: 0.6em 1.2em; color: rgba(0, 0, 0, 0.8); border: 0px none transparent; background-color: rgb(230, 230, 230); text-decoration: none; }
+.button-hover, .button:focus, .button:hover { background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.1)); }
+.button-active, .button:active { box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.15) inset, 0px 0px 6px rgba(0, 0, 0, 0.2) inset; }
+.button-primary, .button-selected, a.button-primary, a.button-selected { background-color: rgb(61, 177, 250); color: rgb(255, 255, 255); }
+body, html { min-width: 1280px; }
+.center-wrapper { position: relative; top: 0px; width: 1240px; height: 100%; margin: 0px auto; }
+.widget-subnav { z-index: 10; position: absolute; width: 100%; top: 81px; left: 0px; font-size: 14px; border-bottom: 1px solid rgba(226, 226, 226, 0.6); background-color: rgba(255, 255, 255, 0.05); transition: background-color 0.5s ease 0s; }
+.subnav-wrap { overflow: hidden; margin: 0px auto; width: 1240px; max-width: 1240px; padding: 0px 20px; }
+.subnav-logo { display: inline; float: left; padding: 24px 0px; }
+.subnav-buy { float: right; padding: 20px 0px 0px 19px; }
+.subnav-buy a { background: rgb(0, 195, 245) none repeat scroll 0% 0%; border-radius: 2px; }
+.subnav-link { float: left; padding-left: 40px; }
+.subnav-promotion { float: right; padding-top: 25px; }
+/* ::::: https://www3.res.meizu.com/static/cn/components/swiper/swiper_feb707f.css ::::: */
+
+.swiper-wrapper { position: relative; width: 100%; transition-property: transform, left, top; transition-duration: 0s; transform: translate3d(0px, 0px, 0px); transition-timing-function: ease; box-sizing: content-box; }
+.swiper-slide { float: left; box-sizing: content-box; }
+.swiper-slide {  }
+.swiper-slide-active {  }
+.swiper-slide-visible {  }
+.swiper-pagination-switch {  }
+.swiper-active-switch {  }
+.swiper-visible-switch {  }
+/* ::::: https://www3.res.meizu.com/static/cn/accessory/band/band_71a4a62.css ::::: */
+
+.container { color: rgb(51, 51, 51); }
+.slider { position: relative; overflow: hidden; }
+.slider .desc h1 { font-size: 50px; line-height: 68px; margin-bottom: 20px; opacity: 0; transform: translate3d(0px, 50px, 0px); transition: transform 1s ease 0s, opacity 1s ease 0s; }
+.slider .desc p { font-size: 16px; line-height: 28px; opacity: 0; transform: translate3d(0px, 50px, 0px); transition: transform 1s ease 0.4s, opacity 1s ease 0.4s; }
+.center-wrapper { position: relative; top: 0px; width: 1240px; height: 100%; margin: 0px auto; }
+.slider.active .desc h1, .slider.active .desc p { opacity: 1; transform: none; }
+.banner { height: 980px; }
+.banner .banner-bg { position: absolute; left: 50%; top: 0px; margin-left: -1280px; width: 2560px; }
+.boundless { background: transparent url('three-bg_de7ad3d.jpg') no-repeat scroll center 0px; height: 1150px; }
+.boundless .time { position: absolute; top: 461px; left: 192px; }
+.boundless .time img { filter: drop-shadow(0px 0px 5px rgb(94, 210, 253)); }
+.boundless .desc { position: relative; padding: 480px 0px 0px 777px; width: 435px; }
+.boundless .desc h1 { color: rgb(229, 229, 229); }
+.boundless .desc p { color: rgb(209, 209, 209); }
+.now { background: transparent url('three-bg_de7ad3d.jpg') no-repeat scroll center -1150px; height: 976px; }
+.now .desc { position: relative; padding: 103px 0px 0px 318px; width: 575px; }
+.now .desc h1 { color: rgb(251, 251, 251); line-height: 70px; }
+.now .desc p { color: rgb(209, 209, 209); }
+.life { background: transparent url('three-bg_de7ad3d.jpg') no-repeat scroll center -2126px; height: 666px; }
+.life .desc { position: relative; padding: 216px 0px 0px; text-align: center; }
+.life .desc p { opacity: 1; transition: none 0s ease 0s ; transform: none; }
+.life .desc .icon { width: 80px; height: 80px; margin: 0px auto 15px; }
+.life .desc .life-1 { width: 338px; margin-right: 122px; }
+.life .desc .life-1 .icon { background: transparent url('icon1_c12f715.png') no-repeat scroll center center; }
+.life .desc .life-2 { width: 338px; margin-right: 113px; }
+.life .desc .life-2 .icon { background: transparent url('icon2_23dd9ac.png') no-repeat scroll center center; }
+.life .desc .life-3 { width: 325px; }
+.life .desc .life-3 .icon { background: transparent url('icon3_05e0ccf.png') no-repeat scroll center center; }
+.life .desc h2 { font-size: 32px; color: rgb(51, 51, 51); line-height: 2.7; }
+.life .desc li { float: left; }
+.heart { background: transparent url('heart-bg_70aa46d.jpg') no-repeat scroll center 0px; height: 980px; overflow: hidden; }
+.heart .desc { position: relative; padding: 257px 0px 0px 720px; width: 500px; }
+.heart .desc h1 { color: rgb(51, 51, 51); line-height: 58px; }
+.heart .desc li p { color: rgb(112, 112, 112); opacity: 1; transition: none 0s ease 0s ; transform: none; }
+.heart .desc h2 { font-size: 20px; font-weight: 400; line-height: 2; margin-bottom: 21px; margin-top: 16px; color: rgb(64, 64, 64); }
+.heart .heartimg-1 { position: absolute; top: 494px; left: -49px; }
+.heart .heartimg-2 { position: absolute; top: 130px; left: 210px; }
+.heart .heartimg-3 { position: absolute; top: 376px; left: 257px; }
+.assistant { background: transparent none repeat scroll 0px 0px; height: 980px; overflow: hidden; }
+.assistant .assistantbg-1 { background: transparent url('assistant1_08d6d6e.jpg') no-repeat scroll center bottom; }
+.assistant .assistantbg-2 { background: transparent url('assistant2_4d5506b.jpg') no-repeat scroll center bottom; }
+.assistant .center-wrapper { height: auto; }
+.assistant .desc { position: relative; padding: 330px 0px 0px 72px; width: 408px; }
+.assistant .desc h1 { color: rgb(51, 51, 51); }
+.assistant .desc p { color: rgb(105, 105, 105); }
+.assistant .bg-con { position: absolute; top: 0px; left: 0px; width: 100%; height: 980px; }
+.assistant .pagination { width: 100px; margin-left: -50px; position: absolute; left: 50%; bottom: 30px; text-align: center; }
+.assistant .pagination span { display: inline-block; width: 8px; height: 8px; border-radius: 5px; margin: 0px 5px; border: 1px solid rgb(146, 151, 165); }
+.assistant .pagination .swiper-active-switch { border: 1px solid transparent; background: rgb(141, 146, 161) none repeat scroll 0% 0%; }
+.water { height: 1180px; }
+.water .bg { position: absolute; width: 2560px; margin-left: -1280px; left: 50%; top: 0px; }
+.water .desc { position: relative; padding: 897px 0px 0px; width: 100%; text-align: center; }
+.water .desc h1 { color: rgb(255, 255, 255); line-height: 70px; }
+.water .desc p { color: rgb(255, 255, 255); }
+.app { background: transparent url('app_16b9ce8.jpg') no-repeat scroll center 0px; height: 977px; }
+.app .desc { position: relative; padding: 375px 0px 0px 75px; width: 450px; text-align: left; }
+.app .desc h1 { color: rgb(51, 51, 51); line-height: 74px; font-size: 42px; }
+.app .desc p { color: rgb(51, 51, 51); }
+.spec { background: transparent url('spec-bg_83b8bc9.jpg') no-repeat scroll center 0px; height: 980px; }
+.spec .desc { position: relative; padding: 164px 0px 0px 31px; text-align: left; }
+.spec .desc h1 { color: rgb(255, 255, 255); line-height: 57px; font-size: 42px; transition: none 0s ease 0s ; transform: none; opacity: 1; }
+.spec .desc li { color: rgb(255, 255, 255); line-height: 48px; font-size: 18px; }
+.spec .desc li span { display: block; width: 148px; float: left; }
+.page-remark { background-color: rgb(255, 255, 255); }
+.page-remark .center-wrapper { padding: 38px 0px; height: auto; }
+.page-remark .label, .page-remark li { color: rgb(204, 204, 204); font-size: 12px; }
+.page-remark .label { width: 30px; float: left; }
+.page-remark ul { margin-left: 40px; }
+.active.boundless .shade { animation: 1s ease-in-out 1s normal both 1 running opacity; }
+.active.boundless .time { animation: 1s ease-in-out 1s normal both 1 running opacity; }
+.active.life .life-1 { animation: 0.5s ease-in-out 0s normal both 1 running l-r; }
+.active.life .life-2 { animation: 0.5s ease-in-out 0.2s normal both 1 running l-r; }
+.active.life .life-3 { animation: 0.5s ease-in-out 0.4s normal both 1 running l-r; }
+.active.heart ul { animation: 0.5s ease-in-out 0.8s normal both 1 running up; }
+.active.heart .heartimg-1 { animation: 1.5s ease-in-out 1.2s normal both 1 running divide1; }
+.active.heart .heartimg-2 { animation: 1.5s ease-in-out 1.2s normal both 1 running divide2; }
+.active.heart .heartimg-3 { animation: 0.5s ease-in-out 1.2s normal both 1 running opacity2; }
+.cssanimations .boundless .shade { position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; background: rgb(0, 0, 0) none repeat scroll 0% 0%; }
+.cssanimations .life li { transform: translateX(-50px); opacity: 0; }
+.cssanimations .heart ul { opacity: 0; transform: translateY(50px); }
+.cssanimations .heart .heartimg-1 { transform-origin: center bottom 0px; transform: rotate(5deg); }
+.cssanimations .heart .heartimg-2 { transform-origin: right bottom 0px; transform: rotate(-5deg); }
+.cssanimations .heart .heartimg-3 { opacity: 0; }
+@media screen and (max-width: 1440px) {
+	.banner { height: 772px; }
+	.banner .banner-bg { margin-left: -1000px; width: 2000px; }
+	.boundless { background: transparent url('three-bg_de7ad3d.jpg') no-repeat scroll center -80px; height: 950px; }
+	.boundless .desc { padding: 400px 0px 0px 777px; }
+	.boundless .time { top: 381px; }
+	.now { background: transparent url('three-bg_de7ad3d.jpg') no-repeat scroll center -1250px; height: 876px; }
+	.now .desc { padding: 53px 0px 0px 318px; }
+	.life { background: transparent url('three-bg_de7ad3d.jpg') no-repeat scroll center -2126px; height: 636px; }
+	.heart { background: transparent url('heart-bg_70aa46d.jpg') no-repeat scroll center center; height: 880px; }
+	.heart .desc { padding: 217px 0px 0px 720px; }
+	.assistant { height: 880px; }
+	.assistant .desc { padding: 280px 0px 0px 72px; }
+	.assistant .bg-con { height: 880px; }
+	.water { height: 968px; }
+	.water .bg { width: 2200px; margin-left: -1100px; }
+	.water .desc { padding: 747px 0px 0px; }
+	.app { height: 875px; background: transparent url('app_16b9ce8.jpg') no-repeat scroll center -50px; }
+	.app .desc { padding: 325px 0px 0px 75px; }
+	.spec { height: 830px; }
+}
+#meizu-header-container { margin: 0px; padding: 0px; position: relative; z-index: 11; }
+#meizu-header-container a { color: rgb(81, 81, 81); text-decoration: none; }
+#meizu-header-container .hover, #meizu-header-container a:hover { color: rgb(49, 165, 231); text-decoration: none; }
+#meizu-header-container ul, #meizu-header-container li { list-style: outside none none; margin: 0px; padding: 0px; }
+#meizu-header-container .meizu-header { font-size: 14px; font-family: Helvetica,Tahoma,Arial,"Hiragino Sans GB","Microsoft YaHei",SimSun,Heiti,sans-serif; position: relative; }
+#meizu-header-container .meizu-header-wrap-1240 { width: 1240px; margin: 0px auto; padding: 0px 20px; position: relative; }
+#meizu-header-container .meizu-header-wrap-1240::after, #meizu-header-container .meizu-header-wrap-1240::before { content: ""; display: table; height: 0px; clear: both; visibility: hidden; }
+#meizu-header-container .meizu-header-logo { display: inline; float: left; padding: 30px 0px; }
+#meizu-header-container .meizu-header-logo-img { display: block; width: 115px; height: 20px; background-repeat: no-repeat; background-position: center center; background-image: url('logo-new_38f50da.png'); }
+#meizu-header-container .meizu-header-user { display: inline; float: right; padding: 30px 12px 0px 18px; text-align: right; font-size: 12px; position: relative; z-index: 105; }
+#meizu-header-container .meizu-header-user-img { position: relative; cursor: pointer; z-index: 3; }
+#meizu-header-container .meizu-header-user-img img { margin-top: -1px; width: 22px; height: 22px; border-radius: 50%; }
+#meizu-header-container .meizu-header-user li a { position: relative; z-index: 4; }
+#meizu-header-container .meizu-header-user li { font-size: 12px; display: block; margin: 15px auto; }
+#meizu-header-container .meizu-header-user li:first-child { margin-top: 0px; }
+#meizu-header-container .meizu-header-user li:last-child { margin-bottom: 0px; }
+#meizu-header-container .meizu-header-user-box { display: none; border-bottom: 0px none; position: absolute; height: 78px; width: 60px; top: 0px; right: 0px; z-index: 2; }
+#meizu-header-container .meizu-header-user-dropdown { display: none; position: absolute; right: 0px; z-index: 1; width: 98px; background-color: rgb(255, 255, 255); top: 64px; left: 50%; border-radius: 2px; box-sizing: border-box; text-align: center; padding: 15px 0px; margin-left: -48px; }
+#meizu-header-container .meizu-header-user-dropdown::after { display: block; content: ""; width: 0px; height: 0px; border-width: 10px; border-style: solid; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-color: transparent transparent rgb(255, 255, 255); left: 40px; top: -15px; position: absolute; }
+#meizu-header-container .meizu-header-link { display: inline; float: right; overflow: hidden; white-space: nowrap; }
+#meizu-header-container .meizu-header-link li { display: inline; float: left; }
+#meizu-header-container .meizu-header-link a { display: block; padding: 31px 20px 30px; line-height: 21px; transition: color 0.1s linear 0s; }
+#meizu-header-container .meizu-header-sub { z-index: 100; display: block; position: absolute; left: 0px; top: 65px; background-color: rgb(255, 255, 255); min-width: 100%; overflow: hidden; height: 0px; }
+#meizu-header-container .meizu-header-sub-wrap { width: 1280px; margin: 0px auto; }
+#meizu-header-container .meizu-header-sub ul { overflow: hidden; padding: 5px 0px 0px 390px; margin: 0px; list-style: outside none none; }
+#meizu-header-container .meizu-header-sub li { float: left; text-align: center; padding: 0px; margin: 0px; list-style: outside none none; opacity: 0; }
+#meizu-header-container .meizu-header-sub-show li:nth-child(1) { animation-delay: 0s; }
+#meizu-header-container .meizu-header-sub-show li:nth-child(2) { animation-delay: 0.1s; }
+#meizu-header-container .meizu-header-sub-show li:nth-child(3) { animation-delay: 0.2s; }
+#meizu-header-container .meizu-header-sub-show li:nth-child(4) { animation-delay: 0.3s; }
+#meizu-header-container .meizu-header-sub-show li:nth-child(5) { animation-delay: 0.4s; }
+#meizu-header-container .meizu-header-sub-show li:nth-child(6) { animation-delay: 0.5s; }
+#meizu-header-container .meizu-header-sub-show li:nth-child(7) { animation-delay: 0.6s; }
+#meizu-header-container .meizu-header-sub-show li:nth-child(8) { animation-delay: 0.7s; }
+#meizu-header-container .meizu-header-sub-show li:nth-child(9) { animation-delay: 0.8s; }
+#meizu-header-container .meizu-header-sub-show li:nth-child(10) { animation-delay: 0.9s; }
+#meizu-header-container .meizu-header-sub-show li:nth-child(11) { animation-delay: 1s; }
+#meizu-header-container .meizu-header-sub a { font-size: 12px; width: 125px; height: 120px; color: rgb(102, 102, 102); white-space: nowrap; display: block; padding: 0px 7px 11px; cursor: pointer; position: relative; z-index: 99; }
+#meizu-header-container .meizu-header-sub a i { display: block; width: 100%; height: 85px; margin-bottom: 15px; background-repeat: no-repeat; background-position: center bottom; }
+#meizu-header-container .meizu-header-sub a span { position: absolute; top: 0px; left: 0px; display: block; height: 127px; width: 147px; opacity: 0.01; background-color: rgb(255, 255, 255); }
+#meizu-header-container .meizu-header-sub a:hover { color: rgb(17, 17, 17); }
+#meizu-header-container .meizu-header-sub a:hover span { display: none; }
+#meizu-header-container .meizu-header-sub .meizu-header-sub-pro7 i { background-image: url('pro7_748e1f4.png'); }
+#meizu-header-container .meizu-header-sub .meizu-header-sub-pro6plus i { background-image: url('pro6plus_891092c.png'); }
+#meizu-header-container .meizu-header-sub .meizu-header-sub-pro6s i { background-image: url('pro6s_8526ddc.png'); }
+#meizu-header-container .meizu-header-sub .meizu-header-sub-pro6 i { background-image: url('pro6_467cfbe.png'); }
+#meizu-header-container .meizu-header-sub .meizu-header-sub-m5a i { background-image: url('m5a_1a473b1.png'); }
+#meizu-header-container .meizu-header-sub .meizu-header-sub-mx6 i { background-image: url('mx6_6eea49f.png'); }
+#meizu-header-container .meizu-header-sub .meizu-header-sub-m5s i { background-image: url('m5s_b7da536.png'); }
+#meizu-header-container .meizu-header-sub .meizu-header-sub-m5 i { background-image: url('m5_2df42d2.png'); }
+#meizu-header-container .meizu-header-sub .meizu-header-sub-m5note i { background-image: url('m5note_38872e7.png'); }
+#meizu-header-container .meizu-header-sub .meizu-header-sub-m3e2 i { background-image: url('m3e2_5a9ed19.png'); }
+#meizu-header-container .meizu-header-sub .meizu-header-sub-router_s i { background-image: url('router_s_148d063.png'); }
+#meizu-header-container .meizu-header-sub .meizu-header-sub-hd50 i { background-image: url('hd50_b6250f4.png'); }
+#meizu-header-container .meizu-header-sub .meizu-header-sub-flow i { background-image: url('flow_2f193f8.png'); }
+#meizu-header-container .meizu-header-sub .meizu-header-sub-ep51 i { background-image: url('ep51_57ddea0.png'); }
+#meizu-header-container .meizu-header-sub .meizu-header-sub-ep52 i { background-image: url('ep52_6381fe8.png'); }
+#meizu-header-container .meizu-header-sub .meizu-header-sub-ep2x i { background-image: url('ep2x_0010d6b.png'); }
+#meizu-header-container .meizu-header-sub .meizu-header-sub-loopjacket i { background-image: url('loopjacket_6cf3b99.png'); }
+#meizu-header-container .meizu-header-sub .meizu-header-sub-m3max i { background-image: url('m3max_4ed9ff6.png'); }
+#meizu-header-container .meizu-header-sub .meizu-header-sub-m3x i { background-image: url('m3x_a5bf92e.png'); }
+#meizu-header-container .meizu-header-sub .meizu-header-sub-a20 i { background-image: url('a20_0cef2cd.png'); }
+#meizu-header-container .meizu-header-sub .meizu-header-sub-musiccard i { background-image: url('musiccard_d45a639.png'); }
+#meizu-header-container .meizu-header-sub .meizu-header-sub-tvbox i { background-image: url('tvbox_816f29e.png'); }
+#meizu-header-container .meizu-header-sub .meizu-header-sub-mix i { background-image: url('mix_42ba73e.png'); }
+#meizu-header-container .meizu-header-sub .meizu-header-sub-band i { background-image: url('band_a285aee.png'); }
+#meizu-header-container .meizu-header-sub .meizu-header-sub-everyday i { background-image: url('everyday_671f4b5.png'); }
+#meizu-header-container .meizu-header-sub .meizu-header-sub-note6 i { background-image: url('note6_03e9537.png'); }
+#meizu-header-container .meizu-header-sub .meizu-header-sub-router_s { background-position: center 9px; }
+#meizu-header-container #meizu-header-sub-mx ul { padding-left: 356px; }
+#meizu-header-container #meizu-header-sub-meilan ul { padding-left: 160px; }
+#meizu-header-container #meizu-header-sub-accessory ul { padding-left: 290px; }
+#meizu-header-container #meizu-header-sub-audio ul { padding-left: 446px; }
+#meizu-header-container .meizu-header-link-product:hover .meizu-header-link-product-a, #meizu-header-container .meizu-header-link-product.hover .meizu-header-link-product-a { color: rgb(49, 165, 231); }
+@media screen and (max-width: 1280px) {
+	.meizu-header { width: 1280px; }
+}
+.meizu-header-cart { float: right; margin: 30px 12px 0px 18px; width: 22px; height: 22px; background: transparent url('shopping-cart-gray_31411e1.png') no-repeat scroll 0% 0%; text-align: center; font-size: 12px; text-indent: 3px; line-height: 10px; }
+#meizu-header-cart.meizu-header-cart { color: red; }
+#meizu-header-cart.meizu-header-cart:hover { color: red; }
+/* ::::: https://store.res.meizu.com/www/css/component-8fc02bda1a.css ::::: */
+
+.store-cart { font-family: "PingFang SC","微软雅黑","Microsoft Yahei",Arial,Helvetica,sans-serif,"宋体"; display: block; position: absolute; cursor: auto; left: -1px; width: 318px; min-height: 120px; font-size: 12px; background-color: rgb(255, 255, 255); box-shadow: 1px 1px 4px rgba(153, 153, 153, 0.3); border-radius: 3px; text-align: left; z-index: 999; }
+.store-cart.store-cart-hide { display: none; }
+.store-cart::after { position: absolute; content: ""; top: -7px; left: 288px; width: 0px; height: 0px; border-left: 8px solid transparent; border-right: 8px solid transparent; border-bottom: 8px solid rgb(255, 255, 255); }
+.store-cart .store-cart-item:nth-child(1) { animation-delay: 0.06667s ! important; }
+.store-cart .store-cart-item:nth-child(2) { animation-delay: 0.13333s ! important; }
+.store-cart .store-cart-item:nth-child(3) { animation-delay: 0.2s ! important; }
+.store-cart .store-cart-item:nth-child(4) { animation-delay: 0.26667s ! important; }
+.store-cart .store-cart-item:nth-child(5) { animation-delay: 0.33333s ! important; }
+.store-cart .store-cart-item-content::after, .store-cart .store-cart-item-content::before { content: " "; display: table; }
+.store-cart .store-cart-item-content::after { content: " "; clear: both; height: 0px; visibility: hidden; display: block; }
+.store-cart .store-cart-item-total::before { content: "￥"; }
+@font-face {
+	font-family: "magnet-iconfont";
+	src: url('iconfont-90065f2bf5.eot') format("embedded-opentype"), url('iconfont-94133b5d01.woff') format("woff"), url('iconfont-92e52fb802.ttf') format("truetype"), url('undefined') format("svg");
+}
+.store-iconfont { font-family: magnet-iconfont ! important; font-size: 16px; font-style: normal; }
+.store-iconfont.store-icon-top::before { content: ""; }
+.store-iconfont.store-icon-minimize::before { content: ""; }
+.store-iconfont.store-icon-app::before { content: ""; }
+.store-iconfont.store-icon-cart::before { content: ""; }
+.store-iconfont.store-icon-talk::before { content: ""; }
+.store-magnet { position: fixed; font-family: "PingFang SC","微软雅黑","Microsoft Yahei",Arial,Helvetica,sans-serif,"宋体"; right: -123px; color: rgb(255, 255, 255); z-index: 9999; font-weight: 400; transition: right 0.2s ease 0s; }
+.store-magnet.store-magnet-mini { right: 0px ! important; }
+.store-magnet.store-magnet-mini .store-magnet-list { display: none; }
+.store-magnet.store-magnet-mini .store-magnet-minimize { display: block ! important; }
+.store-magnet .store-iconfont { font-size: 30px; }
+.store-magnet .store-magnet-item { position: relative; right: 0px; background-color: rgb(216, 216, 216); transition: all 0.3s linear 0s; margin-bottom: 1px; }
+.store-magnet .store-magnet-item:hover { right: 73px; background-color: rgb(163, 154, 154); }
+.store-magnet .store-magnet-item.store-magnet-item-app:hover { right: 0px; }
+.store-magnet .store-magnet-item.store-magnet-item-app:hover .store-magnet-download::after { width: 1px; }
+.store-magnet .store-magnet-item.store-magnet-item-app:hover .store-magnet-download-body { height: 196px; }
+.store-magnet .store-magnet-item:hover .store-magnet-cart-num { top: 18px; right: auto; left: 90px; }
+.store-magnet .store-magnet-minimize { display: none ! important; background-color: rgb(216, 216, 216); transition: background-color 0.3s linear 0s; }
+.store-magnet .store-magnet-minimize:hover { background-color: rgb(163, 154, 154); }
+.store-magnet .store-magnet-link { display: block; line-height: 50px; color: rgb(255, 255, 255); word-break: keep-all; font-size: 0px; }
+.store-magnet .store-magnet-cart-num { -moz-text-size-adjust: none; position: absolute; top: 10px; left: auto; right: 77px; height: 15px; line-height: 15px; background-color: rgb(240, 65, 95); color: rgb(255, 255, 255); text-align: center; border-radius: 20px; padding: 0px 3px; transition: left 0.1s ease 0s; }
+.store-magnet .store-magnet-cart-num .store-magnet-cart-text { display: inline-block; font-size: 10px; transform: scale(0.8); border-radius: 20px; }
+.store-magnet .store-magnet-icon { display: inline-block; vertical-align: middle; width: 50px; height: 50px; text-align: center; }
+.store-magnet .store-magnet-text { display: inline-block; vertical-align: middle; width: 73px; overflow: hidden; text-overflow: ellipsis; word-break: keep-all; font-size: 12px; text-align: left; }
+.store-magnet .store-magnet-download { position: absolute; right: 124px; bottom: 0px; }
+.store-magnet .store-magnet-download .store-magnet-download-body { width: 162px; height: 0px; background-color: rgb(163, 154, 154); overflow: hidden; transition: height 0.2s linear 0s; line-height: normal; }
+.store-magnet .store-magnet-download::after { position: absolute; right: -1px; bottom: 0px; content: ""; height: 50px; width: 0px; background-color: rgb(163, 154, 154); }
+.store-magnet .store-magnet-qrcode { width: 145px; height: 145px; margin: 9px; }
+.store-magnet .store-magnet-download-text { word-break: keep-all; margin-bottom: 16px; text-align: center; font-size: 12px; }
+#meizu-footer { margin: 0px; padding: 0px; z-index: 999; font-family: "微软雅黑","Microsoft Yahei",Arial,Helvetica,sans-serif,"宋体"; font-size: 14px; color: rgb(81, 81, 81); position: relative; background-color: rgb(255, 255, 255); }
+#meizu-footer .meizu-row { width: 1240px; position: relative; }
+#meizu-footer .meizu-row::after { content: ""; display: block; clear: both; height: 0px; }
+#meizu-footer .button::-moz-focus-inner { padding: 0px; border: 0px none; }
+#meizu-footer li { list-style: outside none none; }
+#meizu-footer a { color: rgb(81, 81, 81); text-decoration: none; }
+#meizu-footer .meizu-footer-wrap { width: 1240px; margin: 0px auto; }
+#meizu-footer .meizu-footer-link { padding: 60px 0px 20px; border-top: 1px solid rgb(241, 241, 241); }
+#meizu-footer .meizu-footer-link a { line-height: 27px; font-size: 12px; color: rgb(102, 102, 102); }
+#meizu-footer .meizu-footer-link a:hover { color: rgb(49, 165, 231); }
+#meizu-footer .button-language { padding-right: 10px; }
+#meizu-footer .footer-hr { margin: 16px auto 28px; display: block; height: 1px; border-width: 1px 0px 0px; border-style: solid none none; border-color: rgb(238, 238, 238) -moz-use-text-color -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; padding: 0px; }
+#meizu-footer .meizu-footer-info { color: rgb(153, 153, 153); text-align: left; font-size: 12px; width: 100%; }
+#meizu-footer .meizu-footer-info img { margin-bottom: -9px; }
+#meizu-footer .meizu-footer-info a { color: rgb(153, 153, 153); }
+#meizu-footer .meizu-footer-info-left { float: left; }
+#meizu-footer .meizu-footer-info-left i { position: relative; top: 4px; display: inline-block; height: 18px; background-position: center center; background-repeat: no-repeat; }
+#meizu-footer .meizu-footer-info-left .footer-info-record { margin: 0px 6px; }
+#meizu-footer .meizu-footer-info-left .footer-info-record i { width: 14px; background-image: url('undefined'); }
+#meizu-footer .meizu-footer-info-left .footer-info-license { margin: 0px; }
+#meizu-footer .meizu-footer-info-left .footer-info-license i { width: 20px; background-image: url('undefined'); }
+#meizu-footer .meizu-footer-info-left .footer-info-license:hover i { background-image: url('undefined'); }
+#meizu-footer .meizu-footer-info-left .footer-info-wel { margin: 0px; }
+#meizu-footer .meizu-footer-info-left .footer-info-wel i { width: 20px; background-image: url('undefined'); }
+#meizu-footer .meizu-footer-info-left .footer-info-wel:hover i { background-image: url('undefined'); }
+#meizu-footer .meizu-footer-info-left .footer-info-trust { margin: 0px; }
+#meizu-footer .meizu-footer-info-left .footer-info-trust i { width: 25px; background-image: url('undefined'); }
+#meizu-footer .meizu-footer-info-left .footer-info-trust:hover i { background-image: url('undefined'); }
+#meizu-footer .meizu-footer-info-left .meizu-footer-language a { position: relative; display: block; padding-left: 24px; }
+#meizu-footer .meizu-footer-info-left .meizu-footer-language a:hover { color: rgb(81, 81, 81); }
+#meizu-footer .meizu-footer-info-left .meizu-footer-language i { position: absolute; width: 18px; height: 18px; top: 0px; left: 0px; background-image: url('undefined'); background-repeat: no-repeat; background-size: cover; }
+#meizu-footer .meizu-footer-info-left .meizu-footer-language .icon-lang-logo-cn { background-position: 0px 0px; }
+#meizu-footer .meizu-footer-info-left ul li { padding-right: 15px; border-right: 1px solid rgb(214, 214, 214); float: left; height: 18px; margin-right: 15px; }
+#meizu-footer .meizu-footer-info-left ul a { display: block; line-height: 18px; }
+#meizu-footer .meizu-footer-info-left .no-border { border: 0px none; }
+#meizu-footer .meizu-footer-service { width: 1000px; float: left; }
+#meizu-footer .meizu-footer-service li { float: left; text-align: center; width: 240px; height: 58px; }
+#meizu-footer .meizu-footer-service li a { display: block; overflow: hidden; }
+#meizu-footer .meizu-footer-service li img { float: left; width: 30px; margin-right: 3px; }
+#meizu-footer .meizu-footer-service li span { float: left; line-height: 30px; color: rgb(153, 153, 153); }
+#meizu-footer .onlive-server { float: right; text-align: right; margin-top: -18px; }
+#meizu-footer .onlive-server span { color: rgb(153, 153, 153); font-size: 12px; }
+#meizu-footer .onlive-server .tel { color: rgb(0, 195, 245); font-size: 20px; font-weight: 400; }
+#meizu-footer .onlive-server .onlive-btn { width: 110px; height: 40px; background-color: rgb(0, 195, 245); padding-left: 26px; overflow: hidden; position: relative; text-align: center; line-height: 40px; color: rgb(255, 255, 255); border-radius: 2px; margin-top: 8px; display: block; }
+#meizu-footer .onlive-server .onlive-btn:hover { color: rgb(255, 255, 255); }
+#meizu-footer .onlive-server img { position: absolute; width: 20px; top: 8px; left: 18px; }
+.ii-hr { display: inline-block; width: 1px; height: 14px; background: rgb(238, 238, 238) none repeat scroll 0% 0%; margin: 0px 10px; position: relative; top: 5px; }
+#ii-subscribe { float: right; margin-top: 18px; position: relative; }
+#ii-subscribe a { display: inline-block; }
+#ii-subscribe a img { position: absolute; bottom: 40px; left: -20px; width: 180px; display: none; }
+.ii-subscribe-img { display: inline-block; width: 21px; height: 18px; position: relative; top: 4px; background-repeat: no-repeat; background-position: center center; }
+.ii-subscribe-weibo { background-image: url('undefined'); }
+.ii-subscribe-weixin { background-image: url('undefined'); }
+.ii-subscribe-qzone { background-image: url('undefined'); }
+.ii-subscribe-weibo:hover { background-image: url('undefined'); }
+.ii-subscribe-weixin:hover { background-image: url('undefined'); }
+.ii-subscribe-qzone:hover { background-image: url('undefined'); }
+.ii-ml-md { margin-left: 10px; }
+#widget-lang-choose { position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; background: transparent url('modal-bg-opacity_a898e4b.png') repeat scroll 0% 0%; z-index: 10000; min-width: 1280px; display: none; font-family: Helvetica,Tahoma,Arial,"Hiragino Sans GB","Microsoft YaHei",SimSun,Heiti,sans-serif; }
+#widget-lang-choose .modal-lang-box { position: absolute; left: 50%; top: 50%; margin-left: -384px; margin-top: -255px; width: 768px; height: 442px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+#widget-lang-choose .modal-lang-title { position: relative; height: 70px; line-height: 70px; background: rgb(246, 246, 246) none repeat scroll 0% 0%; text-indent: 20px; font-size: 18px; color: rgb(153, 153, 153); }
+#widget-lang-choose .modal-lang-title .modal-lang-close { position: absolute; right: 0px; top: 0px; width: 70px; height: 70px; background: transparent url('modal-close_6f8a173.png') no-repeat scroll 0% 0%; cursor: pointer; }
+#widget-lang-choose .modal-lang-title .modal-lang-close:hover { background: transparent url('modal-close-hover_33a406e.png') no-repeat scroll 0% 0%; }
+#widget-lang-choose .modal-lang-body { padding: 30px; }
+#widget-lang-choose .modal-lang-body ul { overflow: hidden; width: 666px; margin: 0px auto; }
+#widget-lang-choose .modal-lang-body li { float: left; width: 166px; height: 68px; line-height: 68px; text-align: center; margin-bottom: 10px; list-style: outside none none; }
+#widget-lang-choose .modal-lang-body li span { display: inline-block; width: 80px; text-align: left; }
+#widget-lang-choose .modal-lang-body li a { display: inline-block; width: 100%; height: 100%; color: rgb(81, 81, 81); font-size: 14px; }
+#widget-lang-choose .modal-lang-body li a:hover { background: rgb(244, 244, 244) none repeat scroll 0% 0%; }
+#widget-lang-choose .modal-lang-body .lang-logo { background: transparent url('lang-logos_2b5b142.png') no-repeat scroll 0% 0%; width: 36px; height: 36px; display: inline-block; vertical-align: middle; margin-right: 10px; }
+#widget-lang-choose .modal-lang-body .lang-logo-cn { background-position: 0px 0px; }
+#widget-lang-choose .modal-lang-body .lang-logo-hk { background-position: 0px -36px; }
+#widget-lang-choose .modal-lang-body .lang-logo-en { background-position: 0px -108px; }
+#widget-lang-choose .modal-lang-body .lang-logo-ru { background-position: 0px -144px; }
+#widget-lang-choose .modal-lang-body .lang-logo-il { background-position: 0px -180px; }
+#widget-lang-choose .modal-lang-body .lang-logo-in { background-position: 0px -216px; }
+#widget-lang-choose .modal-lang-body .lang-logo-id { background-position: 0px -252px; }
+#widget-lang-choose .modal-lang-body .lang-logo-vn { background-position: 0px -288px; }
+#widget-lang-choose .modal-lang-body .lang-logo-mm { background-position: 0px -323px; }
+#widget-lang-choose .modal-lang-body .lang-logo-es { background-position: 0px -359px; }
+#widget-lang-choose .modal-lang-body .lang-logo-kh { background-position: 0px -396px; }
+#widget-lang-choose .modal-lang-body .lang-logo-bd { background-position: 0px -432px; }
+#widget-lang-choose .modal-lang-body .lang-logo-th { background-position: 0px -468px; }
+#widget-lang-choose .modal-lang-body .lang-logo-ua { background-position: 0px -504px; }
+#widget-lang-choose .modal-lang-body .lang-logo-eg { background-position: 0px -540px; }
+#widget-lang-choose .modal-lang-body .lang-logo-it { background-position: 0px -576px; }
+.meizu-footer-language-wp { float: left; }
+.meizu-footer-certificate { padding-top: 8px; }
+.meizu-footer-certificate a { margin: 0px 3px; }

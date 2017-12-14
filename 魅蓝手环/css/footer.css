@@ -1,0 +1,225 @@
+/*
+notice开始
+*/
+.notice{
+    width: 1366px;
+    height: 122px;
+    padding: 40px;
+    color: #ccc;
+    border-bottom: 1px #f0f0f0 solid;
+}
+.notice p {
+    display: block;
+    float: left;
+}
+/*notice结束*/
+
+
+    /*footer begin*/
+.footer {
+    height: 295px;
+    padding-left: 40px;
+}
+.footer-up {
+    height: 192px;
+    border-bottom: 1px solid #EEEEEE;
+}
+.service-brief {
+    float: left;
+    width: 1000px;
+    height: 116px;
+    margin-top: 60px;
+}
+.service-brief li {
+    float: left;
+    width: 240px;
+    height: 58px;
+}
+.service-brief a {
+    display: inline-block;
+    width: 240px;
+    height: 30px;
+    line-height: 30px;
+    color: #999999;
+    text-indent: 32px;
+}
+.service-link-1 {
+    background: url("../image/footer_service_1.png") no-repeat;
+}
+.service-link-2 {
+    background: url("../image/footer_service_2.png") no-repeat;
+}
+.service-link-3 {
+    background: url("../image/footer_service_3.png") no-repeat;
+}
+.service-link-4 {
+    background: url("../image/footer_service_4.png") no-repeat;
+}
+.service-link-5 {
+    background: url("../image/footer_service_5.png") no-repeat;
+}
+.service-link-6 {
+    background: url("../image/footer_service_6.png") no-repeat;
+}
+.service-link-7 {
+    background: url("../image/footer_service_7.png") no-repeat;
+}
+.service-link-8 {
+    background: url("../image/footer_service_8.png") no-repeat;
+}
+.hotline {
+    float: right;
+    width: 136px;
+    margin-top: 48px;
+    margin-right: 69px;
+}
+.hotline p {
+    text-align: right;
+    color: #999999;
+}
+.hotline strong {
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 8px 0;
+    color: #00C3F5;
+    text-align: right;
+}
+.hotline a {
+    display: block;
+    width: 136px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-indent: 20px;
+    border-radius: 2px;
+    color: #FFFFFF;
+    background: #00C3F5 url("../image/online_customer_support.png") no-repeat 20px 10px;
+}
+.footer-down {
+    height: 102px;
+}
+.site-info {
+    float: left;
+    padding-top: 30px;
+    color: #999999;
+}
+.site-info ul {
+    overflow: hidden;
+}
+.site-info li {
+    float: left;
+    padding-right: 15px;
+    margin-right: 15px;
+    border-right: 1px solid #D6D6D6;
+    height: 18px;
+    line-height: 18px;
+}
+.site-info .no-border {
+    border-right: 0;
+}
+.site-info a {
+    color: #999999;
+}
+.site-info a:hover {
+    color: #31A5E7;
+}
+.no-border a{
+    position: relative;
+    padding-left: 24px;
+}
+.no-border span {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background: url("../image/lang-logos.png") no-repeat 0 0;
+    background-size: 17px;
+    top: 0;
+    left: 0;
+}
+.copyright {
+    margin-top: 16px;
+    height: 20px;
+}
+.footer-icon-1 {
+    display: inline-block;
+    width: 16px;
+    height: 18px;
+    background: url("../image/footer_icon_1.png") no-repeat;
+    vertical-align: bottom;
+}
+.footer-icon-1:hover {
+    background-image: url("../image/footer_icon_1_hover.png");
+}
+.footer-icon-2 {
+    display: inline-block;
+    width: 16px;
+    height: 18px;
+    background: url("../image/footer_icon_2.png") no-repeat;
+    vertical-align: bottom;
+}
+.footer-icon-2:hover {
+    background-image: url("../image/footer_icon_2_hover.png");
+}
+.footer-icon-3 {
+    display: inline-block;
+    width: 16px;
+    height: 18px;
+    background: url("../image/footer_icon_3.png") no-repeat;
+    vertical-align: bottom;
+}
+.footer-icon-3:hover {
+    background-image: url("../image/footer_icon_3_hover.png");
+}
+.subscribe {
+    float: right;
+    margin-top: 48px;
+    position: relative;
+}
+.subscribe a {
+    float: left;
+    display: block;
+    width: 21px;
+    height: 18px;
+}
+.subscribe span {
+    float: left;
+    display: block;
+    height: 14px;
+    width: 1px;
+    margin: 0 10px;
+    background-color: #eeeeee;
+}
+.weibo {
+    background: url("../image/subscribe_weibo.png") no-repeat;
+}
+.weibo:hover {
+    background-image: url("../image/subscribe_weibo_hover.png");
+}
+.weixin {
+    background: url("../image/subscribe_weixin.png") no-repeat;
+}
+.weixin:hover {
+    background-image: url("../image/subscribe_weixin_hover.png");
+}
+.qzone {
+    background: url("../image/subscribe_qzone.png") no-repeat;
+}
+.qzone:hover {
+    background-image: url("../image/subscribe_qzone_hover.png");
+}
+.weixin img {
+    display: none;
+}
+.weixin:hover img {
+    display: block;
+    width: 156px;
+    height: 156px;
+    position: absolute;
+    top: -176px;
+    left: -32px;
+}
+/*footer end*/
+
+
+
