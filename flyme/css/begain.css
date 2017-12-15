@@ -1,0 +1,154 @@
+/*
+大盒子开始*/
+    .box {
+        width: 1400px;
+        height: 530px;
+        position: relative;
+        overflow: hidden;
+
+    }
+    .box-1 {
+        line-height: 100px;
+        height:100px;
+        float: left;
+        position: absolute;
+
+        z-index: 1;
+    }
+    .box-1 dt {
+        float: left;
+        padding-right: 333px;
+        padding-left: 52px;
+    }
+    .box-1 dd {
+        width: 119px;
+        float: left;
+        font: 18px  "微软雅黑" ;
+        color: #000;
+        line-height: 100px;
+        height:100px;
+    }
+#box_2 {
+    position: relative;
+    width: 100%;
+    height: 532px;
+    overflow: hidden;
+}
+#box_2 img {
+    position: absolute;
+    min-width: 1650px;
+    width: 100%;
+    height: 532px;
+}
+#btn {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+}
+#btn span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #ffd;
+    margin-left: 11px;
+    cursor: pointer;
+
+}
+#btn .moveon {
+    background: #000;
+}
+   
+/*大盒子结束*/
+/*
+center开始*/
+    .center {
+        width: 1261px;
+        height: 268px;
+        float: left;
+        padding-left: 138px;
+        border-bottom: 1px #666 dotted;
+
+    }
+    .center ul li {
+        width: 232px;
+        height:210px;
+        float: left;
+        margin-top: 0px;
+        margin-left: 30px;
+        list-style: none;
+    }
+/*center结束*/
+/*footer开始*/
+    .footer {
+        width: 1400px;
+        height: 134px;
+        float: left;
+        background-color: darkslategray;
+    }
+    .footer a {
+
+        float: left;
+        margin-top: 45px;
+        margin-left: 42px;
+        padding-left: 16px;
+        font-size: 18px;
+        font-family: "微软雅黑" ;
+        height: 56px;
+    }
+ .footer button {
+     background-color: #027AF6;
+     color: #fff;
+     outline: none;
+     border: 0;
+ }
+ .footer p {
+     width: 1076px;
+     height: 28px;
+     text-align: center;
+    padding-top: 36px;
+ }
+ .wei{
+     width: 32px;
+     height: 32px;
+     position: absolute;
+     background: url("../image/footer.png") no-repeat -64px 0;
+     top:-8px;
+     left: -20px;
+     overflow: hidden;
+ }
+ .weixin {
+    position: relative;
+
+ }
+ #wechat  img {
+     width: 235px;
+     height: 270px;
+
+ }
+ #wechat{
+     position:absolute;
+     top:538px;
+     left: 978px;
+     width: 235px;
+     height: 270px;
+     display: none;
+     z-index: 1;
+ }
+ .sina-in {
+     width: 32px;
+     height: 32px;
+     position: absolute;
+     background: url("../image/footer.png") 0 0px;
+     top:-8px;
+     left: -20px;
+     overflow: hidden;
+ }
+ .sina{
+     position: relative;
+ }
+ .weixin hover {
+     color: green;
+ }
+/*footer开始*/
